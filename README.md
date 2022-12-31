@@ -2,7 +2,7 @@
 
 The point of this project is to create a set of reusable components that I can use on each of my websites to link to my homepage and the source code via a footer.
 
-Based on [this article](https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f) and [this stack overflow](https://stackoverflow.com/questions/71356016/how-to-share-react-component-across-multiple-projects).
+Based on [this article](https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f) and [this stack overflow](https://stackoverflow.com/questions/71356016/how-to-share-react-component-across-multiple-projects). Then when that didn't work (at the `npm run build` step), [this stack overflow](https://stackoverflow.com/questions/62703393/support-for-the-experimental-jsx-isnt-currently-enabled). I don't quite understand how everything works.
 
 ## Example Usage
 
