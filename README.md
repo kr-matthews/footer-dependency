@@ -6,6 +6,24 @@ Based on [this article](https://levelup.gitconnected.com/publish-react-component
 
 ## Example Usage
 
+Install via
+
+```
+npm install https://github.com/kr-matthews/footer-dependency#vx.y.z
+```
+
+Import via
+
+```
+import {
+  WithHeavyFooter,
+  Body,
+  HeavyFooter,
+  HomeLink,
+  CodeLink,
+} from "footer-dependency/dist/lib";
+```
+
 The `HomeLink` is designed specifically for my website, and `CodeLink` is designed for GitHub.
 
 ```
@@ -15,7 +33,7 @@ export default function App() {
       <Body>Custom Content</Body>
       <HeavyFooter>
         <HomeLink />
-        <CodeLink gitHubRepoName="connect-4" />
+        <CodeLink gitHubRepoName="connect-4" themeType="dark" />
         Custom content
         <Link url="https://www.google.ca" src="" description="Example" />
       </HeavyFooter>
