@@ -21,6 +21,7 @@ import {
   HeavyFooter,
   HomeLink,
   CodeLink,
+  Link,
 } from "footer-dependency/dist/lib";
 ```
 
@@ -35,7 +36,7 @@ export default function App() {
         <HomeLink />
         <CodeLink gitHubRepoName="connect-4" themeType="dark" />
         Custom content
-        <Link url="https://www.google.ca" src="" description="Example" />
+        <Link url="https://www.google.ca" image="" description="Example" />
       </HeavyFooter>
     </WithHeavyFooter>
   );
